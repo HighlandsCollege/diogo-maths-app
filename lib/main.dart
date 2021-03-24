@@ -100,7 +100,8 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
-            Text('I added text through a pull request')
+            Text('I added text through a pull request'),
+            Text('herbie is annoying')
           ],
         ),
       ),
