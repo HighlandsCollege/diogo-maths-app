@@ -11,8 +11,19 @@ class _Level1 extends State<Level1> {
   @override 
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SafeArea(
-        child: Text('mathsQuestion')
+      body: Padding(
+        padding: const EdgeInsets.fromLTRB(8, 20, 8, 20),
+        child: SafeArea(
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Text('Level 1')
+              ],
+            )
+          )
+        ),
       )
     );
   }
